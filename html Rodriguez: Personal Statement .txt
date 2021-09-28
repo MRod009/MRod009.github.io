@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>Personal Statement: Milton Rodriguez</h1>
+<br> 
+<h2>My Background: include any previous IT or web development experience & coursework</h2>
+<p>I do not have much experience with web development but, I do have some IT experience. For my job, I use software such as Adobe Acrobat, Google Forms, Docs, and Spread Sheets. I also have some experience with aviation software and technologies which I used to troubleshoot aircraft issues during my time in the Air Force as an F-16 Crew Chief (mechanic/flight engineer).</p> 
+<br>
+<h2>My Interest in Web Development: what plans, if any, do you have for future web development work</h2>
+<p>Personally, I feel that web development is a valuable skill to have in the contemporary job market. It can make an individual more marketable or appealing to an employer since many job tasks are becoming more computer-based.</p>
+<br>  
+<h2>My Extra-Curricular  Interests, Sports, or Hobbies: one of these might end up the focus of your web project site.</h2>
+<p>Some of my hobbies include snowboarding or cooking. I have recently been thinking about starting a food blog about metro-Boston’s exploding food scene. Web development could help me design a website for my blog in the future.</p>
+<br>  
+<h2>What I Hope to Gain from This Course: besides 4 credits…</h2>
+<p>I hope to gain a better understanding and some proficiency in web development. I know that is not realistic to become fluent in any programming language while taking other courses. But, I do hope to have a decent proficiency and the ability to add to my resume and skillset.</p>
