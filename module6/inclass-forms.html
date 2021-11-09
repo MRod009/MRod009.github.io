@@ -11,15 +11,75 @@
     <link rel="stylesheet" href="">
 
     <style>
-           <!-- internal/embedded styles here -->
+input, select, label {  
+  display: block;
+      }
+body {
+background-color:cadetblue;
+}
+#content{
+width:90%;
+margin:auto;
+text-align:center;
+}
 
+form {
+font-size:1.5em;
+margin-left:5%;
+padding-top:5%;
+background-color: cornsilk;
+border:2px dotted #000;
+}
+input {
+margin-bottom:2%;
+font-size: 1em;
+}
+input#submit {
+border:4px solid yellow;
+border-radius: 50px 50px;
+text-align: center;
+background-color:chocolate;
+color:white;
+font-weight:bold;
+padding: 20px;
+}
 
-    </style>
+#submit:hover {
+background-color:cornsilk;
+color:chocolate;
+font-size:150%;
+border:2px solid black;
+}
+ </style>
  </head>
 
  <body>
-<!--  your visible page content below -->
-Hello World!
+
+   <div>
+     <form action="https://idesstage2.bc.edu/class/results.php" method"post">
+       
+  <label for="fname">First name:</label><br>
+  <input type="text" id="fname" name="fname"><br>
+  <label for="lname">Last name:</label><br>
+       <input type="text" id="lname" name="lname">
+    <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email">
+       <select id="icecream" name="icecream">
+         <option value="vanilla">Vanilla</option>
+         <option value="chocolate">Chocolate</option>
+         <option value="strawberry">Strawberry</option>
+         <option value="cheescake">Cheesecake</option>
+         <option value="oreo">Oreo</option>
+         <option value="cookiedough">Cookie dough</option>
+       </select><br>
+       <label>What do you want to do with your life</label>
+       <textarea name="life goals" rows=10 cols"30">
+       </textarea><br>
+         <input type="submit" value="Submit"><br>
+
+       
+     </form>
+   </div>
 
  </body>
 </html>
