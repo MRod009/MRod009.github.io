@@ -11,9 +11,14 @@
     <link rel="stylesheet" href="">
 
     <style>
+      button{
+        
           display: block;
 margin-top: 20px;
-
+      }
+#date_display {
+  display:none;
+      }
 
     </style>
     <script>
@@ -21,6 +26,7 @@ margin-top: 20px;
       { 
         
   document.getElementById('date_display').innerHTML = Date();
+        document.getElementById('date_display').style = "display:block";
         return true;
       }
       
