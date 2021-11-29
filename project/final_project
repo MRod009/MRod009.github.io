@@ -1,25 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Your Page Title</title>
+    <title>Milton's Travel Blog</title>
     <meta charset="UTF-8">
-   <meta name="description" content="Free Web tutorials">
+   <meta name="description" content="Travel Blog">
    <meta name="keywords" content="your, relevant, keywords, in, a, comma, separated, list">
-   <meta name="author" content="Your Name">
+   <meta name="author" content="Milton R.">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <link rel="stylesheet" href="">
 
     <style>
-           <!-- internal/embedded styles here -->
+           
 
 
     </style>
  </head>
 
  <body>
-<!--  your visible page content below -->
-Hello World!
+<div class="header">
+
+<img src= "/project/project_header .png" alt="banner" width=1020px>
+
+  </div>
+
 
  </body>
 </html>
