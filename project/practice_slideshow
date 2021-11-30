@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Your Page Title</title>
+    <meta charset="UTF-8">
+   <meta name="description" content="Free Web tutorials">
+   <meta name="keywords" content="your, relevant, keywords, in, a, comma, separated, list">
+   <meta name="author" content="Your Name">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="">
+
+    <style>
+           img {
+  display:none;
+  width:100%;
+}
+const images = document.querySelectorAll("img");
+
+setInterval(function(){
+console.log("I run every 2 seconds indefinitely");
+}, 2000)
+
+let i = 0;
+images[i].style.display = 'block';
+
+const images = document.querySelectorAll("img"); 
+
+let i = 0;
+
+setInterval(function(){
+  images[i].style.display = 'block';
+  i++;
+}, 2000);
+
+const images = document.querySelectorAll("img"); 
+
+let i = 0;
+
+setInterval(function(){
+   
+ images.forEach( (img, i) => {
+    img.style.display = 'none';
+  })
+
+  images[i].style.display = 'block';
+  i++;
+
+}, 2000);
+
+const images = document.querySelectorAll("img"); 
+
+let i = 0;
+
+setInterval(function(){ 
+
+  images.forEach( (img, i) => {
+    img.style.display = 'none';
+  })
+
+  if( i == images.length) {
+    i = 0; 
+  }
+  
+  images[i].style.display = 'block';
+  
+  i++;
+
+}, 2000);
+
+
+    </style>
+ </head>
+
+ <body>
+<div>
+  <img src="https://picsum.photos/1000/301">
+  <img src="https://picsum.photos/1000/302">
+  <img src="https://picsum.photos/1000/303">
+</div>
+
+ </body>
+</html>
+
