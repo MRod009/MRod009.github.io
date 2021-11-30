@@ -29,10 +29,11 @@ margin-top: 20px;
         document.getElementById('date_display').style = "display:block";
         return true;
       }
-      function setCookie(cname,cvalue,exdays) {
+      function setCookie() {
   const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toGMTString();
+        let cvalue = document.forms[0].first_name.value;
   document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
 }
 
