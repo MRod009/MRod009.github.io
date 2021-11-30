@@ -30,7 +30,8 @@ margin-top: 20px;
         return true;
       }
       function setCookie() {
-  const d = new Date();
+ let cname= 'FirstName'
+        const d = new Date();
   d.setTime(d.getTime() + (exdays*24*60*60*1000));
   let expires = "expires=" + d.toGMTString();
         let cvalue = document.forms[0].first_name.value;
